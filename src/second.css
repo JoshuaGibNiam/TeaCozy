@@ -1,0 +1,304 @@
+/* DEFAULTS */
+h1, h2, h3, h4, h5, h6, p, li, a{
+    font-family: "Outfit", "Times New Roman", serif;
+    color: black;
+    letter-spacing: 0.01em;
+    line-height: 1.5;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* header section */
+#header {
+    background-color: #a31e03;
+    width: 100%;
+    margin-top: 0;
+    display: flex;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+#header img {
+    display: inline-block;
+    margin: 8px;
+}
+
+.navigation {
+    display: inline-block;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #EDCB12;
+    font-family: Outfit, serif;
+    margin-left: 30px;
+}
+.navigation a:hover{
+    color: #ffe400;
+}
+
+/* hero section */
+#hero {
+    margin: 0;
+    width: 100%;
+    height: 500px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-bedford-bizarre.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column
+}
+#hero h1 {
+    color: #A36E03;
+    font-size: 100px;
+    display: inline-block;
+    font-family: "Imperial Script", cursive, "Outfit", serif;
+}
+#hero h2 {
+    display: block;
+    color: #A36E03;
+}
+
+.btn-primary {
+    background-color: #A30338;
+    color: floralwhite;
+    font-family: "Outfit", serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 10%;
+    height: 110px;
+    width: 300px;
+    margin: 20px;
+}
+
+.btn-primary:hover {
+    cursor: pointer;
+    background-color: #cd0447;
+}
+
+/* about section */
+
+#about {
+    background-color: #928f93;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+#about p {
+    color: white;
+    font-family: "Outfit", serif;
+    margin: 20px;
+}
+#about img {
+    margin: 20px;
+    float: right;
+}
+
+#about p a {
+    text-decoration: none;
+    color: #EDCB12;
+    font-family: Outfit, serif;
+}
+
+#about p a:hover {
+    cursor: pointer;
+    color: #ffe400;
+}
+
+/* products */
+#products {
+    background-color: #de8c21;
+    opacity: 0.75;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product {
+    margin: 0;
+    height: 300px;
+    width: 75%;
+    flex-grow: 2;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#jasmine {
+    margin-top: 40px;
+    background-color: #a31e03;
+}
+
+
+#green-tea {
+    background-color: #A34E03;
+}
+
+#black\ tea {
+    background-color: #A37903;
+}
+#black-tea {
+
+}
+
+#milk\ tea {
+    background-color: #A3A103;
+}
+
+#chinese\ tea {
+    background-color: #6CA303;
+}
+
+#tea\ leaves {
+    background-color: #03A356;
+}
+
+#teabags {
+    background-color: #03A3A1;
+    margin-bottom: 40px;
+}
+
+.product h2 {
+    color: #514f51;
+    font-family: "Outfit", serif;
+    letter-spacing: 0.02em;
+    margin: 25px;
+    font-size: 50px;
+}
+.product img {
+    height: 250px;
+    width: auto;
+    margin: 25px;
+    display: inline-block;
+    float: right;
+}
+.product a:hover {
+    color: #656264;
+}
+.product p {
+    margin: 25px;
+    display: inline-block;
+    font-family: "Outfit", serif;
+}
+
+/* recipes */
+#recipes {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-myrtle-ave.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.btn-secondary {
+    background-color: #c28304;
+    color: #444043;
+    border: none;
+    border-radius: 10%;
+    font-family: "Outfit", serif;
+    font-size: 30px;
+    height: 100px;
+    width: 160px;
+    margin: 25px;
+}
+.btn-secondary:hover {
+    background-color: #eda005;
+    cursor: pointer;
+}
+
+#recipes p {
+    color: #444043;
+    font-family: "Outfit", serif;
+    font-size: 20px;
+}
+
+#locations {
+    background-color: #a10337;
+    height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#locations h2 {
+    font-size: 40px;
+    margin: 20px;
+    color: black
+}
+#locations h3 {
+    margin: 20px;
+    color: black;
+}
+
+#locations #locations-wrap {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+#nyc {
+    background-color: #A10386;
+}
+#london {
+    background-color: #6D03A1;
+}
+#berlin {
+    background-color: #1E03A1;
+}
+#rio {
+    background-color: #0337A1;
+}
+
+#kl {
+    background-color: #0386A1;
+}
+
+#tokyo {
+    background-color: #03A16D;
+}
+#more {
+    background-color: #03A11E;
+}
+
+.locations {
+    width: 250px;
+}
+
+.locations h3{
+    font-size: 40px;
+}
+
+.locations a:hover{
+    color: #444043;
+}
+
+/* footer */
+#footer {
+    background-color: #222625;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#footer p, #footer h4 {
+    color: white;
+}
+
+
+
+
